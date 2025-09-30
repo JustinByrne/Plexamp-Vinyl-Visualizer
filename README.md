@@ -1,4 +1,5 @@
 
+
 # Plexamp Vinyl Visualizer
 
 A tiny Node.js server + HTML frontend that turns your Plexamp playback into a **spinning vinyl record**.  
@@ -79,4 +80,5 @@ Open the visualizer full screen and enjoy your spinning record. Perfect for mini
 	•	Never commit or share your real Plex token publicly.
 	•	Tested with Node.js 20+.
 	•	Contributions welcome!
+
 
