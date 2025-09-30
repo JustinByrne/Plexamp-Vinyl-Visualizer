@@ -1,17 +1,14 @@
 {
-  "name": "plexamp-vinyl",
+  "name": "plexamp-vinyl-visualizer",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Visualizer that turns Plexamp playback into a spinning vinyl record",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "express": "^5.1.0",
-    "node-fetch": "^3.3.2",
-    "xml2js": "^0.6.2"
+    "express": "^4.19.0",
+    "xml2js": "^0.6.2",
+    "node-fetch": "^2.6.9"
   }
 }
