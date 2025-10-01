@@ -18,19 +18,25 @@ The record shows the current album artwork and spins only while music is playing
 ##  Installation
 
 1. **Clone this repository**
-   ```bash
+
+```bash
    git clone https://github.com/tbollinger63/Plexamp-Vinyl-Visualizer.git
    cd Plexamp-Vinyl-Visualizer
+```
 
 	2.	Install dependencies
 
+```bash
 npm install
+```
 
 
 	3.	Edit server.js and add your Plex token
 Replace this line:
 
+```
 const PLEX_URL = 'http://<YOUR_SERVER_IP>:32400/status/sessions?X-Plex-Token=<YOUR-TOKEN>';
+```
 
 with your real server IP and token.
 
