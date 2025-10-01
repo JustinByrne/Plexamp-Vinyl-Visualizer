@@ -5,16 +5,12 @@
 A tiny Node.js server + HTML frontend that turns your Plexamp playback into a **spinning vinyl record**.  
 The record shows the current album artwork and spins only while music is playing. Pause = stop. 🎶💿
 
----
-
 ##  Features
 
 - Live album cover from Plexamp
 - Spinning vinyl effect
 - Play/pause synced with Plexamp
 - Works in any modern browser (incl. projector web browsers, Apple TV via AirPlay, etc.)
-
----
 
 ##  Installation
 
@@ -41,8 +37,6 @@ const PLEX_URL = 'http://<YOUR_SERVER_IP>:32400/status/sessions?X-Plex-Token=<YO
 
 with your real server IP and token.
 
----
-
 ## How to get your Plex token
 
 There are two simple methods:
@@ -65,8 +59,6 @@ PlexOnlineToken="GMGsBCzK1Pa3u2gvzo2H"
 
 Copy the value between the quotes.
 
----
-
 ### Method B
 
 Use the browser developer tools
@@ -76,8 +68,6 @@ Use the browser developer tools
 3.	Press F12 → go to Network tab
 4.	Look for a request to /status/sessions
 5.	The URL contains X-Plex-Token=... → copy that value
-
----
 
 ## Usage
 
@@ -91,8 +81,6 @@ npm start
 - Vinyl visualizer: http://localhost:3000/index.html
 
 Open the visualizer full screen and enjoy your spinning record. Perfect for mini projectors above your turntable.
-
----
 
 ## Notes
 
