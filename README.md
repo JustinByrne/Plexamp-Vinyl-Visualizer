@@ -24,14 +24,14 @@ The record shows the current album artwork and spins only while music is playing
    cd Plexamp-Vinyl-Visualizer
 ```
 
-	2.	Install dependencies
+2.	Install dependencies
 
 ```bash
 npm install
 ```
 
 
-	3.	Edit server.js and add your Plex token
+3.	Edit server.js and add your Plex token
 Replace this line:
 
 ```
